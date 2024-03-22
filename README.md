@@ -4,6 +4,8 @@
 
 ## Project Name: catalog-of-products-and-services
 
+### Project Description: This project is an example of how you can register and consult products and services in a catalog APP.
+
 ### 🚧 Project status
 
 | Complete | Under development | In revision |
