@@ -1,5 +1,21 @@
 # Getting Started with Create React App
 
+## In this project I created a simple Product and Services Catalog project, with the purpose of capturing learning.
+
+## Project Name: catalog-of-products-and-services
+
+### 🚧 Project status
+
+| Complete | Under development | In revision |
+| -------- | ----------------- | ----------- |
+| &#x2611; | &#x2612;          | &#x2612;    |
+
+### To clone the project
+
+`clone` [click here - Cadastro de Produtos](https://github.com/WMS66/catalog-of-products-and-services)
+
+### Techs
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
