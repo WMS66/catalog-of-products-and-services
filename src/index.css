@@ -1,13 +1,62 @@
+/* index.css */
+
+/* Estilos para o corpo da página */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    background-color: #cdc8c8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilos para o cabeçalho */
+h1 {
+    color: chocolate;
+}
+.menu {
+    background-color: #4a260c;
+    align-content: flex-start;
+    border-radius: 2%;
+    width: 100%;
+}
+/* Estilos para o menu */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: chocolate;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #8b4513; /* Mais escuro para realçar hover */
+}
+
+/* Estilos para as páginas de catálogo */
+.catalog-page {
+    padding: 20px;
+}
+
+.catalog-page h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os itens de catálogo */
+.catalog-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para links de navegação ativos */
+.active-link {
+    font-weight: bold;
 }
